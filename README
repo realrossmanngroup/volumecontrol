@@ -1,0 +1,4 @@
+This is a volume control program. I had a wired keyboard that was too short to reach the couch, but I wanted to be able to set the volume of my living room television computer. So I SSH'd in and made this program to set it. I couldn't use alsamixer to set it over ssh. I had to hit enter for each volume step which was annoying; this was set up to immediately accept input from the terminal without having to wait for me to press enter. Hit [ for volume down, or ] for volume up!
+
+This is in C instead of being a bash script because I find the C syntax more appealing. 
+
